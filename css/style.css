@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Belleza&family=Catamaran:wght@100..900&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Comic+Relief:wght@400;700&family=Exo:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prata&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+--color-general: #66615b;
+--color-titulos: #111111;
+--fondo-azul: #f5fafd;
+--color-iconos-naranja: #f5593d;
+--color-iconos: #888888;
+--fondo-footer: #252422;
+--letra-footer: #fff;
+}
+
+header{
+	background-color: transparent;
+	padding: 10px 0;
+	position: absolute;
+	top:0;
+	width: 100%;
+}
+
+#hero{
+	background-image: url("../img/bg-site.jpeg");
+	background-size: 100% 65%;
+	background-position: top center;
+	background-repeat: no-repeat;
+	padding: 15% 0 5%;
+}
+
+h2, h3, h1, h4, h5, p{
+	font-family: "Quicksand", serif;
+}
+
+#hero h1{
+	font-size: 50px;
+	font-weight: 900;
+	color:var(--letra-footer);
+}
+
+#hero h3,{
+	font-size: 30px;
+	font-weight: 500;
+	color:var(--color-titulos);
+}
+
+#hero h5{
+	font-size: 20px;
+	font-weight: 300;
+	color:var(--color-iconos);
+}
+
+#hero p{
+	font-size: 20px;
+	font-weight: 200;
+	color:var(--letra-footer);
+}
+
+.btn-primary{
+	background-color: transparent;
+	border-color: var(--letra-fotter);
+	font-size: 24px;
+	padding: 20px 25px;
+	border-radius: 45px;
+	font-weight: 500; 
+    align-items: flex-end; 
+    margin-top: 20px; 
+}
+
+#Features{
+	margin-top: 50px;
+	align-content: center;
+}
+
+.app-sources{
+  border-radius: 50px;
+  padding: 30px;
+  transition: all 0.3s ease-in-out;
+  display: flex;               
+  align-items: center;         
+}
+
+.app-sources i{
+	color: var(--color-iconos-naranja); 
+}
